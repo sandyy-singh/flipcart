@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <table id='table'>
+     <tr>
+         <th>key</th>
+         <th>value</th>
+     </tr>
+     
+ </table>   
+
+
+<script>
+ const x={name:"i20",price:"5000",color:"blue"}
+ 
+var html='';
+ for(let i in x)
+{
+    html+='<tr> <td>'+ i +'</td><td>'+ x[i] +'</td></tr>';  
+ 
+      console.log(html);
+
+
+}
+
+document.getElementById('table').innerHTML+=html;
+</script>
+
+</body>
+</html>

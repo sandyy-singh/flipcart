@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style></style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><img src="images/wallpaper.jpg" alt="logo" id="logo" /></li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li><input type="text" value="&#128269;" /></li>
+        <li
+          style="
+            background-color: rgb(117, 114, 114);
+            width: 150px;
+            padding: 5px;
+            float: right;
+            border-radius: 10px, 10px;
+          "
+        >
+          Cart <span id="span">0</span>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="section1">
+      <div class="item">
+        <img src="images/shose.jpg" style="width: 300px; height: 200px" />
+        <p style="font-size: 30px; text-align: center">shoes</p>
+        <p style="text-align: center; font-size: 20px">price 2199</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+      <div class="item">
+        <img src="images/jacket.jpg" style="width: 300px; height: 200px" />
+        <p style="text-align: center; font-size: 30px">jacket</p>
+        <p style="font-size: 20px; text-align: center">price 599</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+      <div class="item">
+        <img src="images/glabs.jpg" style="width: 300px; height: 200px" />
+        <p style="font-size: 30px; text-align: center">gloves</p>
+        <p style="font-size: 20px; text-align: center">price 1199</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+      <div class="item">
+        <img
+          src="images/323737-football-wallpaper.jpg"
+          style="width: 300px; height: 200px"
+        />
+        <p style="font-size: 30px; text-align: center">football</p>
+        <p style="text-align: center; font-size: 20px">price 1999</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+
+      <div class="item">
+        <img src="images/shirt1.png" style="width: 300px; height: 200px" />
+        <p style="text-align: center; font-size: 30px">shirt</p>
+        <p style="font-size: 20px; text-align: center">price 1999</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+
+      <div class="item">
+        <img
+          src="images/Dress-Shirt-PNG.png"
+          style="width: 300px; height: 200px"
+        />
+        <p style="font-size: 30px; text-align: center">shirt</p>
+        <p style="font-size: 20px; text-align: center">price 1999</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+      <div class="item">
+        <img
+          src="images/Fur-Coat-PNG-Photo.png"
+          style="width: 300px; height: 200px"
+        />
+        <p style="font-size: 30px; text-align: center">girl's sweater</p>
+        <p style="font-size: 20px; text-align: center">price 1900</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+      <div class="item">
+        <img src="images/glabs.jpg" style="width: 300px; height: 200px" />
+        <p style="font-size: 30px; text-align: center">gloves</p>
+        <p style="font-size: 20px; text-align: center">price 1909</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+      <div class="item">
+        <img src="images/jacket.jpg" style="width: 300px; height: 200px" />
+        <p style="font-size: 30px; text-align: center">jacket</p>
+        <p style="font-size: 20px; text-align: center">price 2199</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+      <div class="item">
+        <img
+          src="images/Dress-Shirt-PNG.png"
+          style="width: 300px; height: 200px"
+        />
+        <p style="font-size: 30px; text-align: center">gloves</p>
+        <p style="font-size: 20px; text-align: center">price 1999</p>
+        <label for="qty1">QTY</label
+        ><input type="number" max="5" min="0" id="qty1" />
+        <button style="text-align: center" onclick="add_pro1()">
+          Add to cart
+        </button>
+        <button>buy now</button>
+      </div>
+    </main>
+    <br />
+    <main id="section2">
+      <table id="table">
+        <th>model no.</th>
+        <th>Product name</th>
+        <th>Price</th>
+      </table>
+      <br />
+      <table id="table2">
+        <th>
+          <button onclick="abc()">Grand total</button><input type="" id="gt" />
+        </th>
+        <th></th>
+      </table>
+    </main>
+    <script>
+      let arr = [];
+      var dk1 = {
+        name: "shose",
+        no: 300001,
+        price: 2199,
+      };
+      var dk2 = {
+        name: "jacket",
+        no: 3000002,
+        price: 599,
+      };
+      var dk3 = {
+        name: "glabs",
+        no: 3000003,
+        price: 1199,
+      };
+      var dk4 = {
+        name: "football",
+        no: 3000004,
+        price: 1999,
+      };
+      var dk5 = {
+        name: "shirt",
+        no: 3000005,
+        price: 1999,
+      };
+      var dk6 = {
+        name: "shirt",
+        no: 3000006,
+        price: 1999,
+      };
+      var dk7 = {
+        name: "girl's sweater",
+        no: 3000007,
+        price: 1900,
+      };
+      var dk8 = {
+        name: "glabs",
+        no: 3000008,
+        price: 1909,
+      };
+      var dk9 = {
+        name: "jacket",
+        no: 3000009,
+        price: 2199,
+      };
+      var dk10 = {
+        name: "shirt",
+        no: 3000010,
+        price: 1999,
+      };
+
+      function add_pro1() {
+        let grand_total = document.getElementById("gt");
+        var html = "";
+        html +=
+          "<tr><td>" +
+          +dk1.no +
+          "</td><td>" +
+          dk1.name +
+          "</td><td>" +
+          dk1.price +
+          "</td></tr>";
+        document.getElementById("table").innerHTML += html;
+
+        arr.push(dk1.price);
+        let val = sumArray();
+        grand_total.value = val;
+        add1();
+      }
+
+      function getPriceValue(e) {
+        e.target.value;
+      }
+
+      function add1() {
+        var x = document.getElementById("span").innerHTML;
+        x++;
+        document.getElementById("span").innerHTML = x;
+      }
+      function sumArray() {
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+          sum += parseInt(arr[i]);
+        }
+        return sum;
+      }
+    </script>
+  </body>
+</html>
